@@ -1,0 +1,103 @@
+.courses {
+  width: 100%;
+  height: auto;
+}
+
+.who ul{
+  padding: 14px;
+}
+.coursesP{
+  padding: 14px;
+}
+
+.skill,
+.who h2 {
+  background-color: dodgerblue;
+  color: white;
+  padding: 14px;
+  width: 330px;
+}
+
+.accordion {
+  list-style-type: none;
+  padding: 0;
+}
+
+.accordion li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc; /* Adding a border between accordion items */
+}
+
+.accordion button {
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+  display: flex; /* Flexbox to align items */
+  justify-content: space-between; /* Space evenly between button and indicator */
+  align-items: center; /* Align items to center vertically */
+}
+
+.accordion button::after {
+  content: "+"; /* Plus sign indicating closed state */
+  font-size: 20px;
+  color: #333;
+  transition: transform 0.2s ease; /* Smooth transform animation */
+}
+
+.accordion button.collapsed::after {
+  content: "-"; /* Minus sign indicating expanded state */
+  transform: rotate(90deg); /* Rotate for minus sign */
+}
+
+.accordion p {
+  margin: 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.cardContainer {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  height: auto;
+  background-color: rgb(240, 236, 236);
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 5px gray;
+  transition: 0.15s ease-in;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  background-color: lightyellow;
+  border-radius: 20px 20px 0 0;
+  border: none;
+}
+
+.card button {
+  background-color: #43a724;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 5px;
+}

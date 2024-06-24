@@ -1,0 +1,46 @@
+.blog{
+    width: 100vw;
+    height: auto;   
+}
+.blog h2{
+    padding: 14px;
+    background-color: #43A724;
+    color: white;
+    width: 330px;
+}
+.posts{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #f5f6f7;
+    padding: 30px;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+.posts div{
+    padding: 14px;
+    width: 280px;
+
+}
+.firstPost{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.greenBtn{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #43A724;
+    color: white;
+    cursor: pointer;
+}
+.greenBtn:hover{
+    background-color: lightgreen;
+    transition: 0.2s ease-in;
+    color: black;
+}

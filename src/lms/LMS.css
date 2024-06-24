@@ -1,0 +1,87 @@
+.lms-section {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color for better readability */
+  }
+  
+  .lms-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .lms-content h2 {
+    font-size: 2.5em;
+    color: #007bff; /* Primary color for headings */
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .lms-content p {
+    font-size: 1.5em;
+    color: #343a40; /* Dark color for subheadings */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .featuresAndImage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between the text and image */
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    flex: 1 1 60%; /* Adjusts width to 60% and allows wrapping */
+  }
+  
+  .feature {
+    flex: 1 1 45%; /* Adjusts width to 45% and allows wrapping */
+    background-color: #fff; /* White background for feature boxes */
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners for the feature boxes */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle effect */
+  }
+  
+  .feature h4 {
+    font-size: 1.25em;
+    color: #28a745; /* Green color for feature headings */
+    margin-bottom: 5px;
+  }
+  
+  .feature p {
+    font-size: 1em;
+    color: #6c757d; /* Secondary color for feature text */
+    line-height: 1.6;
+  }
+  
+  .imageContent {
+    flex: 1 1 100%; /* Image takes full width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imageContent img {
+    width: 100%;
+   max-height: auto;
+    border-radius: 8px; /* Optional: Rounded corners for the image */
+  }
+  
+  @media (max-width: 768px) {
+    .features {
+      flex: 1 1 100%; /* Features take full width on smaller screens */
+    }
+  
+    .feature {
+      flex: 1 1 100%; /* Each feature takes full width on smaller screens */
+    }
+  
+    .imageContent {
+      flex: 1 1 100%; /* Image takes full width on smaller screens */
+      margin-top: 20px; /* Add space above the image */
+    }
+  }
+  

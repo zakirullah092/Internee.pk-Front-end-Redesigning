@@ -1,0 +1,70 @@
+.portal {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color for better readability */
+  }
+  
+  .portalContent {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .portalContent h2 {
+    font-size: 2.5em;
+    color: #007bff; /* Primary color for headings */
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .portalContent h3 {
+    font-size: 1.5em;
+    color: #343a40; /* Dark color for subheadings */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .featuresAndImage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between the text and image */
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    flex: 1 1 60%; /* Adjusts width to 60% and allows wrapping */
+
+    padding: 14px;
+  }
+  
+ 
+  .feature{
+    width: 250px ;
+  }
+  .feature h4 {
+    font-size: 1.25em;
+    color: #28a745; /* Green color for feature headings */
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1em;
+    color: #6c757d; /* Secondary color for feature text */
+    line-height: 1.6;
+  }
+  
+  .imageContent {
+    flex: 1 1 100%; /* Image takes full width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imageContent img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Rounded corners for the image */
+  }
+  

@@ -1,0 +1,26 @@
+.internship{
+    width: 100vw;
+    height: auto;
+
+}
+.internshipContent{
+    width:100% ;
+    height: auto;
+    padding: 14px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.internshipContent h2{
+    background-color: dodgerblue;
+   max-width: 330px;
+    padding: 14px;
+
+    color: white;
+}
+.cardContainer{
+    
+}

@@ -1,0 +1,29 @@
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .back-to-top div {
+    font-size: 24px;
+  }
+  
+  .back-to-top div:hover {
+    background-color: #0056b3;
+  }
+  
+  .back-to-top div:active {
+    background-color: #004085;
+  }
+  
